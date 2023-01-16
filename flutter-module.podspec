@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "flutter-module"
-  spec.version      = "0.1.5"
+  spec.version      = "0.1.6"
   spec.summary      = 'A short description of flutter-module.'
 
   # This description is used to generate tags and improve search results.
@@ -90,6 +90,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
+  spec.source_files = 'src/**/*'
   #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
 
