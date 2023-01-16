@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/SyLiz/flutter-module.git", :tag => "#{spec.version}" }
+  spec.source       = { :http => "https://github.com/SyLiz/flutter-module/archive/refs/tags/0.1.2.zip" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
