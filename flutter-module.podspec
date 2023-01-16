@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "flutter-module"
-  spec.version      = "0.1.3"
+  spec.version      = "0.1.4"
   spec.summary      = 'A short description of flutter-module.'
 
   # This description is used to generate tags and improve search results.
@@ -80,8 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :http => "https://github.com/SyLiz/flutter-module/archive/refs/tags/0.1.3.zip" }
-
+  spec.source       = { :git => "https://github.com/SyLiz/flutter-module.git", :tag => "#{spec.version}" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
